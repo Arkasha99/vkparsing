@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec3ebf49-c9d6-4932-a343-ef1c117fdaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vka/templates/vka/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vka/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKParsing/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/VKParsing/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKParsing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/VKParsing/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vka/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vka/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="ec3ebf49-c9d6-4932-a343-ef1c117fdaf7" name="Default Changelist" comment="VK Oath2" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,12 +184,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567940020967</updated>
-      <workItem from="1567940255269" duration="10738000" />
+      <workItem from="1567940255269" duration="12002000" />
     </task>
+    <task id="LOCAL-00001" summary="VK Oath2">
+      <created>1567955993748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567955993748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10738000" />
+    <option name="totallyTimeSpent" value="12002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -228,6 +228,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VK Oath2" />
+    <option name="LAST_COMMIT_MESSAGE" value="VK Oath2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
