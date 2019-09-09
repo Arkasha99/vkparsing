@@ -5,10 +5,24 @@
     <title>OAuth</title>
 </head>
 <body>
-        <H1>Don't you mind to authorize?</H1>
-        {% load socialaccount %}
-        <form action="{% provider_login_url "vk" method="oauth2" %}?next='users.html'">
-        <button type="submit">LoginVK</button>
-        </form>
+        {% if user.is_authenticated %}
+            <H1>Hello, {{ user.get_full_name }}</H1>
+            <H2>Here are your friends</H2>
+                {% for lan in new_lst %}
+                    <p>{{ lan }}</p>
+                {% empty %}
+                    <p>List is empty</p>
+                {% endfor %}
+            <H2>Wanna logout?</H2>
+            <form action="logout/">
+                <button type="submit">Logout</button>
+            </form>
+        {% else %}
+            <H1>Don't you mind to authorize?</H1>
+            {% load socialaccount %}
+            <form action="{% provider_login_url "vk" method="oauth2" %}">
+                <button type="submit">LoginVK</button>
+            </form>
+        {% endif %}
 </body>
 </html>

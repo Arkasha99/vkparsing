@@ -3,24 +3,23 @@ from django.shortcuts import render, redirect, render_to_response
 import requests
 import pdb
 
-# Create your views here.
 def index(request):
-    return render(request, 'vka/index.html')
+    if request.user.is_authenticated:
+        screen_name = request.user.username
+        new_lst = get_friends(get_id(screen_name),5)
+        return render(request,'vka/index.html',context={'new_lst':new_lst})
+    else:
+        return render(request,'vka/index.html')
 
+
+#Процедура logout
 def log_out(request):
     logout(request)
     return redirect('index')
 
 
 
-def friends(request):
-    screen_name = None
-    if request.user.is_authenticated:
-        screen_name = request.user.username
-    new_lst = get_friends(get_id(screen_name),5)
-    return render(request,'vka/users.html',context={'new_lst':new_lst})
-
-
+#Получаем вконтактовский айди авторизованного пользователя
 def get_id(screen_name):
     token = 'e35597fde35597fde35597fd2ee339288aee355e35597fdbe26316aa15ceb2c8deec608'
     ver = '5.101'
@@ -34,7 +33,8 @@ def get_id(screen_name):
     return(parse_id['response']['object_id'])
 
 
-
+#С помощью айди пользователя находим айди 5 рандомных друзей, затем по айди находим их
+#имена и создаем список имен
 def get_friends(user_id, count, order='random'):
     token = 'e35597fde35597fde35597fd2ee339288aee355e35597fdbe26316aa15ceb2c8deec608'
     ver = '5.101'
