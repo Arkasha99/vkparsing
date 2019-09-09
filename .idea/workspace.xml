@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec3ebf49-c9d6-4932-a343-ef1c117fdaf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKParsing/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/VKParsing/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vka/templates/vka/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vka/templates/vka/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vka/templates/vka/users.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vka/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vka/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vka/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vka/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vka/templates/vka/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            <state relative-caret-position="70">
+              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vka/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -85,9 +80,9 @@
         <option value="$PROJECT_DIR$/VKParsing/urls.py" />
         <option value="$PROJECT_DIR$/vka/forms.py" />
         <option value="$PROJECT_DIR$/vka/templates/vka/users.html" />
-        <option value="$PROJECT_DIR$/vka/templates/vka/index.html" />
         <option value="$PROJECT_DIR$/VKParsing/settings.py" />
         <option value="$PROJECT_DIR$/vka/urls.py" />
+        <option value="$PROJECT_DIR$/vka/templates/vka/index.html" />
         <option value="$PROJECT_DIR$/vka/views.py" />
       </list>
     </option>
@@ -197,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567940020967</updated>
-      <workItem from="1567940255269" duration="34718000" />
+      <workItem from="1567940255269" duration="35738000" />
     </task>
     <task id="LOCAL-00001" summary="VK Oath2">
       <created>1567955993748</created>
@@ -213,22 +208,36 @@
       <option name="project" value="LOCAL" />
       <updated>1568053146426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final final version">
+      <created>1568054855641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568054855641</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final final final version">
+      <created>1568055583527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568055583527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34718000" />
+    <option name="totallyTimeSpent" value="35738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -249,10 +258,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="VK Oath2" />
     <MESSAGE value="Final Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Version" />
+    <MESSAGE value="Final final version" />
+    <MESSAGE value="Final final final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final final final version" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -318,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vka/templates/vka/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vka/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -337,11 +367,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vka/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vka/templates/vka/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
