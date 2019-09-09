@@ -5,7 +5,9 @@
     <title>OAuth</title>
 </head>
 <body>
-        {% if user.is_authenticated %}
+        {% if user.is_staff %}
+            <p>Ты че здесь забыл? дуй <a href="admin">сюда</a></p>
+        {% elif user.is_authenticated %}
             <H1>Hello, {{ user.get_full_name }}</H1>
             <H2>Here are your friends</H2>
                 {% for lan in new_lst %}

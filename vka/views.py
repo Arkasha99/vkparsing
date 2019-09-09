@@ -4,7 +4,9 @@ import requests
 import pdb
 
 def index(request):
-    if request.user.is_authenticated:
+    if request.user.is_staff:
+        return render(request, 'vka/index.html')
+    elif request.user.is_authenticated:
         screen_name = request.user.username
         new_lst = get_friends(get_id(screen_name),5)
         return render(request,'vka/index.html',context={'new_lst':new_lst})
