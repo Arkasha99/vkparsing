@@ -5,8 +5,10 @@
     <title>OAuth</title>
 </head>
 <body>
-    <H1>SUCK MAH DICK</H1>
-    {% load socialaccount %}
-    <a href="{% provider_login_url "vk" method="oauth2" %}"> Войти через VK </a>
+        <H1>Don't you mind to authorize?</H1>
+        {% load socialaccount %}
+        <form action="{% provider_login_url "vk" method="oauth2" %}?next='users.html'">
+        <button type="submit">LoginVK</button>
+        </form>
 </body>
 </html>

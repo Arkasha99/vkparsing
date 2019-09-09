@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+        <H1>Hello, {{ user.get_full_name }}</H1>
+        <H2>Here are your friends</H2>
+            {% for lan in new_lst %}
+            <p>{{ lan }}</p>
+            {% empty %}
+            <p>Langs array is empty</p>
+            {% endfor %}
+        <H2>Wanna logout?</H2>
+        <form action="logout/?next='index'">
+        <button type="submit">Logout</button>
+        </form>
+    {% endif %}
+</body>
+</html>
